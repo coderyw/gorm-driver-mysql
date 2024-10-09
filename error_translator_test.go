@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"gorm.io/gorm"
+	"github.com/coderyw/gorm"
 
 	"github.com/go-sql-driver/mysql"
 )

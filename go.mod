@@ -3,8 +3,8 @@ module github.com/coderyw/gorm-driver-mysql
 go 1.18
 
 require (
+	github.com/coderyw/gorm v0.0.6
 	github.com/go-sql-driver/mysql v1.8.1
-	gorm.io/gorm v1.25.11
 )
 
 require (
@@ -14,6 +14,6 @@ require (
 	golang.org/x/text v0.14.0 // indirect
 )
 
-replace gorm.io/gorm => gorm.io/gorm v1.25.11
-
-replace gorm.io/gorm v1.25.12 => github.com/coderyw/gorm v0.0.5
+//replace gorm.io/gorm => gorm.io/gorm v1.25.11
+//
+//replace gorm.io/gorm v1.25.12 => github.com/coderyw/gorm v0.0.5
